@@ -1,0 +1,18 @@
+.image__preview {
+  border: 2px dotted gray;
+  border-radius: 1rem;
+  text-align: center;
+  min-height: 25rem;
+  user-select: none;
+  padding: 1rem;
+  transition: box-shadow 150ms ease;
+
+  &_dropping {
+    box-shadow: inset 2px 2px 8px #ccc;
+  }
+
+  &__caption {
+    font-size: 1.25rem;
+    color: #444;
+  }
+}

@@ -1,0 +1,23 @@
+.paragraph {
+  color: #22262a;
+
+  &.paragraph_center {
+    text-align: center;
+  }
+
+  &.paragraph_draggable {
+    cursor: grab;
+  }
+
+  &.paragraph_sm {
+    margin-bottom: 1.5rem;
+  }
+
+  &.paragraph_md {
+    margin-bottom: 2rem;
+  }
+
+  &.paragraph_lg {
+    margin-bottom: 2.5rem;
+  }
+}

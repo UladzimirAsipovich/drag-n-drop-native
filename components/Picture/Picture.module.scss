@@ -1,0 +1,12 @@
+.picture {
+  position: relative;
+  display: block;
+
+  &_draggable {
+    cursor: grab;
+  }
+
+  &__caption {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,14 @@
+  .sidebar {
+    flex: 1 1 30%;
+    padding: 1rem;
+    border: 2px solid hsl(219, 79%, 66%);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin: 0 .5rem;
+    transition: border-color, box-shadow 150ms ease;
+
+    &_dragging {
+      border: 2px solid hsl(219, 79%, 55%);
+      box-shadow: 2px 2px 8px #ccc;
+    }
+  }
